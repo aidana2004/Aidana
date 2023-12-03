@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	padding: 20px 30px 0;
+	background: #07BFAA;
+	width: 98vw;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.mazir{
+	padding: 10px;
+	background: #07BFAA;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 30px;
+	align-self: flex-end;
+	cursor: pointer;
+}
+
+.titleOfSite{
+	color: #fff;
+	font-weight: 600;
+	font-size: 90px;
+	margin: 0;
+	
+}
+.icons{
+	
+}
+.icon{
+	width: 25px;
+}
+@media only screen and (max-width: 900px) {
+  	header{
+		padding: 10px 15px 0;
+		height: 120px;
+	}
+	.mazir{
+		padding: 6px;
+		font-size: 20px;
+	}
+
+	.titleOfSite{
+		font-size: 50px;		
+	}
+	.icon{
+		width: 15px;
+	}
+}
+
+
+#leftBar{
+	width: 250px;
+}
+.leftBar{
+	padding: 16px 0;
+	background: #07BFAA;
+	width: 250px;
+	height: auto;
+}
+.page{
+	margin: 0;
+	padding: 16px 30px;
+	font-size: 25px;
+	font-weight: 500;
+	cursor: pointer;
+	border-bottom: 1px solid black;
+}

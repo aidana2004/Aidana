@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ғылыми жоба</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<button class="mazir" onclick="Mazir()">Mazir</button>
+		
+		<p class="titleOfSite">TerminSoz</p>
+		<div class="icons">
+			<a href="insta href"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png"/></a>
+			<a href="insta href"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/4138/4138124.png"/></a>
+			<a href="insta href"><img class="icon" src="https://icons-for-free.com/iconfiles/png/512/facebook+logo+media+network+social+icon-1320192913497992427.png"/></a>
+		</div>
+	</header>
+	<div id="leftBar">
+		
+	</div>
+</body>
+<script>
+	let mazirBool = true;
+	function Mazir() {
+		if (mazirBool){
+			document.getElementById('leftBar').innerHTML = '<div class="leftBar"><p class="page">Басты бет</p><p class="page">Сөздік</p><p class="page">Тұлға</p><p class="page">Іздеу</p></div>';
+			mazirBool = false;
+		}else{
+			document.getElementById('leftBar').innerHTML = '';
+			mazirBool = true;
+		}
+	}
+</script>
+</html>
